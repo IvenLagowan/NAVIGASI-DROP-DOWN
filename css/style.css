@@ -1,0 +1,75 @@
+body{
+    font-family: calibri;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+body, h1, p .nav ul{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    padding: 20px;
+}
+
+.logo{
+    width: 80px;
+}
+.title{
+    font-size: 34px;
+    font-weight: lighter;
+}
+.tigline{
+    font-size: 12px;
+    font-style: italic;
+}
+/* Bagian Navigasi */
+.nav{
+    background-color: #fff;
+    padding: 10px 0;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.nav ul li {
+    position: relative;
+    margin: 0 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: backgroud-color 0.3s ease-in-out;
+}
+.nav ul li a:hover{
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.nav ul li .active{
+    background-color: #aaa;
+    border-radius: 5px;
+}
+
+/* Style dwopdiwn */
+.nav .dropdown{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+.nav ul li:hover .dropdown{
+    display: block;
+}
+
+
+
+
+
+
+
